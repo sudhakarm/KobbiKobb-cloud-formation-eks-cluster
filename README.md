@@ -21,3 +21,7 @@ https://kubernetes.github.io/ingress-nginx/deploy/#quick-start
 
 ## Verify ingress controller
 kubectl get service ingress-nginx-controller --namespace=ingress-nginx
+
+## NOTE: 
+If you want to change the region in the sh scripts, run this command
+`sed -i s/us-east-1/ap-southeast-2/g ./*.sh`
